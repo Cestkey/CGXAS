@@ -1,6 +1,6 @@
 # Crystal Graph Neural Network for XANES Prediciton (CGXAS)
 ## Overview
-CGXAS is a crystal graph neural network is designed to predict the X-ray Absorption Near Edge Structure (XANES) spectrum prediction from the given crystal structure of material. CGXAS_Uni model is trained with a universal dataset containing the simulated XANES spectra covering 44 elements. CGXAS_Exp_S model is finetuned from CGXAS_Uni model with a small experimental dataset containing 48 S K edge XANES. This demo illustrate 
+CGXAS is a crystal graph neural network is designed to predict the X-ray Absorption Near Edge Structure (XANES) spectrum prediction from the given crystal structure of material. CGXAS_Uni model is trained with a universal dataset containing the simulated XANES spectra covering 44 elements. CGXAS_Exp_S model is finetuned from CGXAS_Uni model with a small experimental dataset containing 48 S K edge XANES spectra.
 
 ## Usage
 
