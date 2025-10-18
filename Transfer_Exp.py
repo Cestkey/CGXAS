@@ -44,8 +44,8 @@ cgnn = CGXAS(
 if __name__ == '__main__':
     cgnn.load_state_dict(torch.load('./best_model/CGXAS_Uni.pt'))
     model_name = 'CGXAS_Exp_S'
-    train_data = torch.load('./processed_data1/Exp_S_train.pt')
-    val_data = torch.load('./processed_data1/Exp_S_val.pt')       
+    train_data = torch.load('./processed_data/Exp_S_train.pt')
+    val_data = torch.load('./processed_data/Exp_S_val.pt')       
     train_loader = DataLoader(train_data, batch_size=6, shuffle=True)
     val_loader = DataLoader(val_data, batch_size=6, shuffle=True)
 
