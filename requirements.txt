@@ -1,0 +1,4 @@
+pymatgen >= 2024.5.31
+torch >= 1.13.1
+torch-geometric >= 2.3.1
+
