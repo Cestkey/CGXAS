@@ -5,7 +5,6 @@ import pandas as pd
 from pymatgen.core.structure import Structure
 from pymatgen.core.periodic_table import Element
 
-from scipy.special import jn_zeros,jn,sph_harm
 import torch
 
 from torch_geometric.data import Data, Dataset
