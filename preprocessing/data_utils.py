@@ -1,7 +1,6 @@
 import os.path
 import json
 import scipy
-from scipy.special import jn_zeros,jn,sph_harm
 import numpy as np
 import pandas as pd
 import glob
